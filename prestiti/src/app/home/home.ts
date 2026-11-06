@@ -9,7 +9,7 @@ import { IDispositivo } from '../interfaces/i-dispositivo';
 })
 export class Home {
   private classe: string = '4B Informatica';
-  private numeroOre: number = 66;
+  private numeroOre: number = 132;
 
   private mioDispositivo: IDispositivo = {
     id: 1,
