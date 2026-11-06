@@ -44,6 +44,7 @@
               "outputHashing": "all"
             },
             "development": {
+              "baseHref": "/@ad-54975361f23b4a5cbaa22a50/TPSIT-4Bi-2026-2027.main/apps/code-server/proxy/8000/",
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
@@ -52,6 +53,15 @@
           "defaultConfiguration": "production"
         },
         "serve": {
+          "options": {
+            "host": "0.0.0.0",
+            "port": 8000,
+            "servePath": "/",
+            "prebundle": false,
+            "hmr": false,
+            "liveReload": false,
+            "allowedHosts": ["code.marconirovereto.it"]
+          },
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {

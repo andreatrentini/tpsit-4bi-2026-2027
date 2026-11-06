@@ -54,6 +54,11 @@
           "defaultConfiguration": "production"
         },
         "serve": {
+          "options": {
+            "allowedHosts": [
+              "code.marconirovereto.it"
+            ]
+          },
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
